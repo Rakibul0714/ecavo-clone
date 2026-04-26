@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="124" viewBox="0 0 53 124" role="img" aria-label="WD Awards Nominee">
+  <title>WD Awards Nominee</title>
+  <!-- Maroon ribbon matching the certificate color palette -->
+  <defs>
+    <linearGradient id="wd-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5E2140"/>
+      <stop offset="100%" stop-color="#3D1629"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0 H53 V112 L26.5 124 L0 112 Z" fill="url(#wd-grad)"/>
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="53" height="3" fill="#C8A35F"/>
+  <!-- WD monogram -->
+  <text x="26.5" y="24" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#FAF5E8" letter-spacing="1">WD</text>
+  <!-- Stacked label -->
+  <text x="26.5" y="50" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#FAF5E8" letter-spacing="1.5">AWARDS</text>
+  <!-- Divider -->
+  <rect x="14" y="56" width="25" height="1" fill="rgba(250,245,232,0.35)"/>
+  <!-- Nominee label, rotated vertically would clutter — keep horizontal -->
+  <text x="26.5" y="73" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#FAF5E8" letter-spacing="0.5">NOMINEE</text>
+  <!-- Year -->
+  <text x="26.5" y="94" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#C8A35F" letter-spacing="1">2026</text>
+</svg>
