@@ -9,7 +9,9 @@
 /* ========================
    RESET
 ======================== */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -96,9 +98,17 @@
 }
 
 @keyframes glow {
-  0%   { box-shadow: 0 0 5px 0 #757575; }
-  50%  { box-shadow: 0 0 10px 0 #474747; }
-  100% { box-shadow: 0 0 5px 0 #0f0f0f; }
+  0% {
+    box-shadow: 0 0 5px 0 #757575;
+  }
+
+  50% {
+    box-shadow: 0 0 10px 0 #474747;
+  }
+
+  100% {
+    box-shadow: 0 0 5px 0 #0f0f0f;
+  }
 }
 
 /* Language switcher */
@@ -153,9 +163,17 @@
 }
 
 @keyframes zoom {
-  0%   { background-position: top center; }
-  50%  { background-position: center; }
-  100% { background-position: top center; }
+  0% {
+    background-position: top center;
+  }
+
+  50% {
+    background-position: center;
+  }
+
+  100% {
+    background-position: top center;
+  }
 }
 
 .bg-overlay {
@@ -176,7 +194,7 @@
   max-width: 40vw;
 }
 
-.hero-sub-title{
+.hero-sub-title {
   color: #c8a35f;
   font-family: jakrata;
   font-size: 13px;
@@ -253,9 +271,17 @@
 }
 
 @keyframes float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* ========================
@@ -349,10 +375,24 @@
   opacity: 0.75;
 }
 
-.buy-button1 { background-color: rgb(248, 194, 0); }
-.buy-button2 { background-color: rgb(139, 92, 246); color: #fffdf7; }
-.buy-button3 { background-color: rgb(255, 82, 0);  color: #fffdf7; }
-.buy-button4 { background-color: rgb(132, 194, 37); color: #fffdf7; }
+.buy-button1 {
+  background-color: rgb(248, 194, 0);
+}
+
+.buy-button2 {
+  background-color: rgb(139, 92, 246);
+  color: #fffdf7;
+}
+
+.buy-button3 {
+  background-color: rgb(255, 82, 0);
+  color: #fffdf7;
+}
+
+.buy-button4 {
+  background-color: rgb(132, 194, 37);
+  color: #fffdf7;
+}
 
 .endText {
   color: #7a6a56;
@@ -376,6 +416,7 @@
   background-color: #1A1207;
   padding: 2rem 1.5rem;
 }
+
 .ad-sub-title {
   color: #c8a35f;
   font-family: jakrata;
@@ -385,6 +426,7 @@
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .ad-title {
   color: #fffdf7;
   font-family: jakrata;
@@ -393,6 +435,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
+
 .ad-post-title {
   color: #fffdf799;
   font-family: jakrata;
@@ -461,181 +504,268 @@
         The Nandi store in numbers
     ======================== */
 
-    .stats-section{
-        padding: 4rem 0rem;
-        background-color: #2D1811;
-    }
-    .stat-section-content{
-      max-width: 1200px;
-      margin: 0px 352.5px;
-    }
-    .stat-section-content>h2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: jakrata;
-        margin:0px 0px 32px;
-        color:#c8a35f;
-    }
-    .stat-section-cards{
-        display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr;
-        color: #38251D;
-        gap:1.5rem;
-    }
-    .stat-section-card{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 1.25rem 1rem;
-      border-radius: 0.75rem;
-      border: 1px solid #faf5e80f;
-      background: #faf5e808;
-    }
-    .stat-section-image{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40px;
-        width:40px;
-        color:#C8A35F;
-        background:#c8a35f1f;
-        margin:0 0.75rem 0.75rem 0.75rem;
-        border-radius: 0.75rem;
-    }
-    .stat-section-number{
-        font-size: 3.5rem;
-        color: #C8A35F;
-        margin-bottom: 0.5rem;
-        font-family: jakrata;
-        line-height: 1;
-        text-align: center;
-    }
-    .stat-section-extra{
-      color:#7A6A56;
-      font-family: jakrata;
-      font-size: 0.6875rem;
-      margin-top: 2px;
-      font-weight: 400;
-    }
-    .stat-section-label{
-        font-size: 0.875rem;
-        font-family: jakrata;
-        color: #faf5e8a6;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        font-weight: 500;
-      }
+.stats-section {
+  padding: 4rem 0rem;
+  background-color: #2D1811;
+}
 
-    .trust-logos{
-      padding: 2.5rem 0;
-      background: #FFFDF7;
-    }
-    .trust-logo-container{
-      max-width: 1200px;
-      margin-inline: auto;
-      width: 100%;
-    }
-    .trust-logo-inner{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
-    .trust-logo-heading{
-      font-size: 0.9375rem;
-      font-weight: 600;
-      color:#6B5744;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      text-align: center;
-      width: 100%;
-      font-family: jakrata;
-    }
-    .trust-logo-grids{
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      align-items: start;
-      justify-items: center;
-      width: 100%;
-      margin: 0 auto;
-    }
-    .trust-logo-grid-items{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      max-width: 100%;
-    }
-    .trust-logo-grid-item{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      max-width: 140px;
-      height: 52px;
-      margin-bottom: 10px;
-    }
-    .trust-logo-grid-item-img{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-    }
-    .trust-logo-grid-item-caption{
-      font-size: 13px;
-      color: #6B5744;
-      line-height: 1.35;
-      margin: 0;
-      max-width: 18ch;
-      word-break: normal;
-      overflow-wrap: break-word;
-      hyphens: none;
-    }
+.stat-section-content {
+  max-width: 1200px;
+  margin: 0px 352.5px;
+}
 
+.stat-section-content>h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: jakrata;
+  margin: 0px 0px 32px;
+  color: #c8a35f;
+}
 
+.stat-section-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #38251D;
+  gap: 1.5rem;
+}
 
+.stat-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #faf5e80f;
+  background: #faf5e808;
+}
 
+.stat-section-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  color: #C8A35F;
+  background: #c8a35f1f;
+  margin: 0 0.75rem 0.75rem 0.75rem;
+  border-radius: 0.75rem;
+}
 
+.stat-section-number {
+  font-size: 3.5rem;
+  color: #C8A35F;
+  margin-bottom: 0.5rem;
+  font-family: jakrata;
+  line-height: 1;
+  text-align: center;
+}
 
+.stat-section-extra {
+  color: #7A6A56;
+  font-family: jakrata;
+  font-size: 0.6875rem;
+  margin-top: 2px;
+  font-weight: 400;
+}
 
+.stat-section-label {
+  font-size: 0.875rem;
+  font-family: jakrata;
+  color: #faf5e8a6;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
 
+.trust-logos {
+  padding: 2.5rem 0;
+  background: #FFFDF7;
+}
 
+.trust-logo-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  width: 100%;
+}
 
+.trust-logo-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
+.trust-logo-heading {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #6B5744;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  width: 100%;
+  font-family: jakrata;
+}
 
+.trust-logo-grids {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.trust-logo-grid-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
 
+.trust-logo-grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 140px;
+  height: 52px;
+  margin-bottom: 10px;
+}
 
+.trust-logo-grid-item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
 
+.trust-logo-grid-item-caption {
+  font-size: 13px;
+  color: #6B5744;
+  line-height: 1.35;
+  margin: 0;
+  max-width: 18ch;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
 
+/* ========================
+   Social Proofs / Testimonials
+======================== */
+.social-proofs {
+  padding: 4rem 0;
+}
 
+.social-proof-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  width: 100%;
+}
 
+.social-proof-text {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
 
+.social-proof-text-1 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #C8A35F;
+  font-family: Jakrata;
+  margin-bottom: 0.75rem;
+}
 
+.social-proof-text-2 {
+  font-size: 36px;
+  font-family: jakrata;
+  color: #2C1810;
+  margin: 0px 0px 16px;
+  font-weight: bold;
+}
 
+.social-proof-text-3 {
+  font-size: 17px;
+  font-family: jakrata;
+  color: #6B5744;
+  margin: 12px 360px 0px;
+}
 
+.social-proof-testimonials {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
 
+.testimonial-cards {
+  background: #FAF5E8;
+  border: 1px solid #cfc19a66;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
 
+.testimonial-card-avtar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgb(123, 31, 46), rgb(90, 21, 32));
+  color: #FFFDF7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+  font-family: jakrata;
+}
 
+.testimonial-card-text {
+  font-size: 0.9375rem;
+  font-family: jakrata;
+  color: #6B5744;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
 
+.testimonial-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 0.5rem;
+}
 
+.testimonial-card-name {
+  font-family: jakrata;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #2C1810;
+}
 
+.testimonial-card-city {
+  font-family: jakrata;
+  font-size: 0.8125rem;
+  color: #7A6A56;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.testimonial-card-product {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #7B1F2E;
+  background: #F0D8DC;
+  padding:2px 10px;
+  border-radius: 9999px;
+  font-family: jakrata;
+}
 
 /* ========================
    RESPONSIVE — MOBILE (≤425px)
