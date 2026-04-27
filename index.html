@@ -1,29 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
     <title>Ecavo Clone</title>
-</head>
+  </head>
+  <body>
 
-<body>
-
-    <!-- Nav Section -->
+    <!-- ========================
+         HEADER / NAV
+    ======================== -->
     <header>
-        <nav class="secondary-nav">
-            <a href="#" class="s-nav-items">Careers</a>
-            <a href="#" class="s-nav-items">Become a Distributor</a>
-            <a href="#" class="s-nav-items">Investor Relations</a>
-        </nav>
+      <!-- Secondary Nav -->
+      <nav class="secondary-nav">
+        <a href="#" class="s-nav-items">Careers</a>
+        <a href="#" class="s-nav-items">Become a Distributor</a>
+        <a href="#" class="s-nav-items">Investor Relations</a>
+      </nav>
 
-        <nav class="primary-nav">
-            <div class="logo">
-                <span class="logo-text">Ecavo</span>
-            </div>
+      <!-- Primary Nav -->
+      <nav class="primary-nav">
+        <div class="logo">
+          <span class="logo-text">Ecavo</span>
+        </div>
 
-            <div class="desktop-menu">
+        <!-- Desktop Menu -->
+        <div class="desktop-menu">
+          <a href="#" class="p-nav-items">Home</a>
+          <a href="#" class="p-nav-items">Products</a>
+          <a href="#" class="p-nav-items">Our Story</a>
+          <a href="#" class="p-nav-items">Quality</a>
+          <a href="#" class="p-nav-items">Blog</a>
+          <a href="#" class="p-nav-items glow">Order Now</a>
+          <a href="#" class="p-nav-items">Contact</a>
+        </div>
+
+        <!-- Mobile: Language + Hamburger -->
+        <div class="mobile-special">
+          <div class="lang">
+            <span class="langs active-lang">EN</span>
+            <span class="divider">|</span>
+            <span class="langs">BAN</span>
+          </div>
+          <div class="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <div class="menu-wrapper">
+              <span class="cross">X</span>
+              <div class="menu">
                 <a href="#" class="p-nav-items">Home</a>
                 <a href="#" class="p-nav-items">Products</a>
                 <a href="#" class="p-nav-items">Our Story</a>
@@ -31,78 +57,185 @@
                 <a href="#" class="p-nav-items">Blog</a>
                 <a href="#" class="p-nav-items glow">Order Now</a>
                 <a href="#" class="p-nav-items">Contact</a>
+              </div>
             </div>
-
-            <div class="mobile-special">
-                <div class="lang">
-                    <span class="langs active-lang">EN</span>
-                    <span class="divider">|</span>
-                    <span class="langs">BAN</span>
-                </div>
-
-                <div class="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-
-                    <div class="menu-wrapper">
-                        <span class="cross">X</span>
-                        <div class="menu">
-                            <a href="#" class="p-nav-items">Home</a>
-                            <a href="#" class="p-nav-items">Products</a>
-                            <a href="#" class="p-nav-items">Our Story</a>
-                            <a href="#" class="p-nav-items">Quality</a>
-                            <a href="#" class="p-nav-items">Blog</a>
-                            <a href="#" class="p-nav-items glow">Order Now</a>
-                            <a href="#" class="p-nav-items">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- ========================
+         HERO SECTION
+    ======================== -->
     <section class="hero-section">
-        <div class="hero">
-            <div class="bg-overlay">
-                <div class="hero-layout">
-                    <div class="hero-content">
-                        <span class="hero-sub-title">From Prayagraj Kitchens Since 2014</span>
-                        <h1 class="hero-title">Born in Prayagraj. Built for Every Kitchen.</h1>
-                        <p class="hero-desc">Trusted by 10 lakh+ families across UP. #1 on Blinkit. At your door in 10 minutes.</p>
-                        <div class="hero-cta">
-                            <button class="btn-act">Order Now</button>
-                            <button class="btn-norm">View Products</button>
-                        </div>
-                    </div>
-
-                    <div class="hero-image">
-                        <img src="Assets\floting-atta.webp" alt="Ecavo Atta Product" class="h-img">
-                        <span class="image-badge">#1 on Blinkit, Zepto, Instamart</span>
-                    </div>
-                </div>
+      <div class="hero">
+        <div class="bg-overlay">
+          <div class="hero-layout">
+            <!-- Hero Text -->
+            <div class="hero-content">
+              <span class="hero-sub-title">From Prayagraj Kitchens Since 2014</span>
+              <h1 class="hero-title">Born in Prayagraj. Built for Every Kitchen.</h1>
+              <p class="hero-desc">
+                Trusted by 10 lakh+ families across UP. #1 on Blinkit. At your door in 10 minutes.
+              </p>
+              <div class="hero-cta">
+                <button class="btn-act">Order Now</button>
+                <button class="btn-norm">View Products</button>
+              </div>
             </div>
-        </div>
 
-        <div class="badges">
-            <div class="badge-item">
-                <img src="Assets\first-icon.svg" alt="" class="badge-icon"> Stone-Ground Chakki
+            <!-- Hero Image -->
+            <div class="hero-image">
+              <img
+                src="https://ecavo.in/product-images/atta-red-mockup-hero.webp"
+                alt="Ecavo Atta Product"
+                class="h-img"
+              />
+              <span class="image-badge">#1 on Blinkit, Zepto, Instamart</span>
             </div>
-            <div class="badge-item"></div>
-            <div class="badge-item"></div>
-            <div class="badge-item"></div>
-            <div class="badge-item"></div>
+          </div>
         </div>
+      </div>
+
+      <!-- Trust Badges -->
+      <div class="badges">
+        <div class="badge-item">
+          <img src="./assets/icons/check.svg" alt="" class="badge-icon" />
+          Stone-Ground Chakki
+        </div>
+        <div class="badge-item">
+          <img src="https://img.icons8.com/ios/50/shield.png" alt="shield" class="badge-icon" />
+          FSSC 22000 Certified
+        </div>
+        <div class="badge-item">
+          <img src="https://img.icons8.com/parakeet-line/48/layers.png" alt="layers" class="badge-icon" />
+          MP Sharbati Wheat
+        </div>
+        <div class="badge-item">
+          <img src="./assets/icons/check-out.svg" alt="" class="badge-icon" />
+          Zero Preservatives
+        </div>
+        <div class="badge-item">
+          <img src="https://img.icons8.com/ios/50/star--v1.png" alt="star" class="badge-icon" />
+          4.5+ Rating on Blinkit
+        </div>
+      </div>
     </section>
-    <!-- End of Hero -->
 
-    <!-- Fixed Right Banner Images -->
+    <!-- ========================
+         FIXED SIDE BANNERS
+    ======================== -->
     <div class="fixed-banners">
-        <img src="Assets\floating-ribbon-1.svg" alt="Awwwards Nominee">
-        <img src="Assets\floating-ribbon-2.svg" alt="WD Awards Nominee">
+      <img src="https://ecavo.in/awwwards-nominee-ribbon.svg" alt="Awwwards Nominee" class="banner-1" />
+      <img src="https://ecavo.in/wd-awards-nominee-ribbon.svg" alt="WD Awards Nominee" class="banner-2" />
     </div>
 
-</body>
+    <hr />
 
+    <!-- ========================
+         ADVERTISE / BUY SECTION
+    ======================== -->
+    <section class="advertise">
+      <span class="inText">Where to Buy</span>
+
+      <div class="buy-buttons">
+        <span class="buy-button1 bbtn">Blinkit</span>
+        <span class="buy-button2 bbtn">Zepto</span>
+        <span class="buy-button3 bbtn">Instamart</span>
+        <span class="buy-button4 bbtn">BigBasket</span>
+        <span class="endText">+ 25,000 retail stores across UP</span>
+      </div>
+
+      <!-- Ad Layout: Image | Content | Image -->
+      <div class="ad-layout">
+        <div class="ad-img">
+          <img src="https://ecavo.in/lifestyle-rotis-plate.webp" alt="Rotis plate" class="ad-img-1" />
+        </div>
+        <div class="ad-content">
+          <p class="ad-sub-title">From Our Kitchen to Yours</p>
+          <p class="ad-title">Real Food. <br> Real Taste.</p>
+          <p class="ad-post-title">No preservatives. No added colour. Just pure ingredients from Prayagraj.</p>
+          <button class="ad-cta">See Our Recipes</button>
+        </div>
+        <div class="ad-img">
+          <img src="https://ecavo.in/lifestyle-halwa-cooking.webp" alt="Halwa cooking" class="ad-img-1" />
+        </div>
+      </div>
+
+      <div class="ad-border"></div>
+    </section>
+
+    <!-- ========================
+         COUNTER / PROMO BANNER
+    ======================== -->
+    <section class="counter">
+      <div class="pre-counter">
+        <span class="pre-counter-text">
+          Summer Special: Try Nandi Sattu Sharbat for instant energy
+        </span>
+        <a href="#" class="pre-counter-text-link">Get it on Blinkit →</a>
+      </div>
+    </section>
+
+     <!-- ========================
+         The Nandi store in Numbers
+    ======================== -->
+
+     <section class="stats-section">
+        <div class="stat-section-content">
+          <h2>The Numbers Speak</h2>
+          <div class="stat-section-cards">
+            <div class="stat-section-card"> <img src="Assets\icons\people.png" class="stat-section-image">
+              <span class="stat-section-number">10 Lakh+</span>
+              <span class="stat-section-label">Families Served</span>
+            </div>
+            <div class="stat-section-card"> <img src="Assets\icons\star.png" class="stat-section-image">
+              <span class="stat-section-number">#1 on Blinkit</span> 
+              <span class="stat-section-label">in 4 Categories</span>
+            </div>
+            <div class="stat-section-card"> <img src="Assets\icons\bag.png" class="stat-section-image">
+              <span class="stat-section-number">25,000+</span>
+              <span class="stat-section-label">Retail Stores Across UP</span>
+              <span class="stat-section-extra">Retail Touchpoints in UP</span>
+            </div>
+            <div class="stat-section-card"> <img src="Assets\icons\star.png" class="stat-section-image">
+              <span class="stat-section-number">4.5+</span>
+              <span class="stat-section-label">Rating (25,000+ Reviews)</span>
+            </div>
+        </div>
+    </div>
+     </section>
+    
+     <!-- ========================
+         Trust Logos
+    ======================== -->
+    <section class="trust-logos">
+      <div class="trust-logo-container">
+      <div class="trust-logo-inner">
+        <p class="trust-logo-heading">Trusted by India's Biggest Brands</p>
+        <div class="trust-logo-grids">
+          <div class="trust-logo-grid-items">
+            <div class="trust-logo-grid-item">
+            <img src="Assets\icons\parle-logo.webp" class="trust-logo-grid-item-img"></div>
+          <p class="trust-logo-grid-item-caption">Bakery maida</p>
+          </div>
+          <div class="trust-logo-grid-items">
+            <div class="trust-logo-grid-item">
+            <img src="Assets\icons\haldiram-logo.webp" class="trust-logo-grid-item-img"></div>
+          <p class="trust-logo-grid-item-caption">Premium maida</p>
+          </div>
+          <div class="trust-logo-grid-items">
+            <div class="trust-logo-grid-item">
+            <img src="Assets\icons\itc-logo.webp" class="trust-logo-grid-item-img"></div>
+          <p class="trust-logo-grid-item-caption">Co-manufacturing</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+      
+
+
+
+  </body>
 </html>
