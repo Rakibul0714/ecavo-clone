@@ -766,6 +766,89 @@
   border-radius: 9999px;
   font-family: jakrata;
 }
+/* ========================
+   Why choose Nandi 
+======================== */
+.why-choose-nandi{
+  padding: 4rem 0;
+  backkground:#fff;
+}
+.why-nandi-container{
+  max-width: 1200px;
+  margin-inline: auto;
+  width: 100%;
+}
+.why-nandi-caption{
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.why-nandi-text-1{
+  position: relative;
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color:#C8A35F;
+  margin-bottom: 0.75rem;
+  font-family: jakarta;
+}
+.why-nandi-text-2{
+  color:#2C1810;
+  font-family: jakarta;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.why-nandi-text-3{
+  font-family: jakarta;
+  color:#6B5744;
+  margin:12px 344px 0px;
+  max-width: 480px;
+  font-size:17px;
+}
+.why-nandi-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:1.5rem;
+  max-width: 1000px;
+  margin: 2.5rem auto 0;
+}
+.why-nandi-grid-cards{
+  background: #faf8f4;
+  border-radius: 16px;
+  border: 1px solid #ede8de;
+  padding: 20px;
+}
+.why-nandi-grid-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  background: #F5EDE0;
+  border-radius: 12px;
+}
+.why-nandi-grid-image-1{
+  width: 28px;
+  height: 28px;
+}
+.why-nandi-grid-text-1{
+  font-family: jakarta;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color:#2C1810;
+}
+.why-nandi-grid-text-2{
+  font-family: jakarta;
+  font-size: 0.9375rem;
+  color:#6B5744;
+  line-height: 1.7;
+}
 
 /* ========================
    RESPONSIVE — MOBILE (≤425px)
