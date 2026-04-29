@@ -849,6 +849,299 @@
   color:#6B5744;
   line-height: 1.7;
 }
+/* ========================
+   Nandis Food Gallerry 
+======================== */
+.nandis-food-gallery{
+  padding:2rem;
+  background: #1a1207;
+  overflow-x: visible;
+}
+.nandis-food-container{
+  max-width: 1200px;
+  margin:0px 352.5px;
+  padding:0 24px;
+}
+.nandis-food-text{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nandis-food-text-1{
+  color:#C8A35F;
+  font-family: jakarta;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform:uppercase;
+  margin-bottom: 0.75rem;
+}
+.nandis-food-text-2{
+  color:#FFFDF7;
+  font-family: jakarta;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.nandis-food-text-3{
+  color: #fffdf7b3;
+  font-size: 17px;
+  max-width: 520px;
+  margin:0 auto;
+  text-align: center;
+  font-family: jakarta;
+}
+.nandis-food-gellery-cards{
+  display: flex;
+  flex-wrap: nowrap;
+  gap:1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  webkit-overflow-scrolling: touch;
+  padding: 0.5rem 0 1.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: #C8A35F transparent;
+}
+.nandis-food-card-1{
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+  text-decoration: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #2a1f0a;
+  position:relative;
+}
+.nandis-food-card-img-div{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.nandis-food-card-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nandis-food-card-text{
+  padding: 1rem 1.25rem;
+}
+.nandis-food-card-img-text-1{
+  font-family: jakarta;
+  color:#FFFDF7;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 0.25rem;
+}
+.nandis-food-card-img-text-2{
+  font-family: jakarta;
+  color: #C8A35F;
+  font-weight: 500;
+}
+.nandis-food-gallerry-view-recipe{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.nandis-food-view-recipe-text{
+  color:#C8A35F;
+  border:1px solid #C8A35F;
+  padding: 12px;
+  font-family: jakarta;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: 0.5rem;
+}
+.nds-fd-r-arrow{
+  height: 22px;
+  width: 22px;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+  filter: invert(45%);
+}
+/* ========================
+   Order Now multiple platform 
+======================== */
+.multiple-platform-order{
+  margin:32px 0px 0px;
+  padding:96px 24px;
+}
+.multiple-platform-container{
+  max-width: 1200px;
+  margin-inline: auto;
+  width:100%;
+}
+.m-p-c-blinkit-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: #2C1810;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.m-p-c-blinkit-content{
+
+}
+.m-p-c-span-text{
+  color: #C8A35F;
+  margin: 0px 0px 12px;
+  font-family: jakarta;
+}
+.m-p-c-h2-text{
+  font-family: jakarta;
+  font-size: 2rem;
+  color:#FFFDF7;
+  margin: 1rem 0 1rem 0;
+}
+.m-p-c-p-text{
+  color:#fffdf7cc;
+  margin-bottom: 1.5rem;
+  max-width: 50ch;
+  line-height: 1.75;
+}
+.mpc-platform-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.mpc-card{
+  background:#faf5e81a;
+  color:#faf5e8e6;
+  border:1px solid #faf5e826;
+  padding: 0.75rem 1.25rem;
+  gap:0.75rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 0.75rem;
+}
+.mpc-card-icon-1{
+  background: #F8CB46;
+  color: #1A1A1A;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  font-size: 1rem
+}
+.mpc-card-text{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+.mpc-card-text-1{
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.mpc-card-text-2{
+  font-size: 0.7rem;
+  opacity: 0.65;
+}
+.mpc-card-icon-2{
+  background: #7B2D8E;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  font-size: 1rem
+}
+.mpc-card-icon-3{
+  background: #FC8019;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  font-size: 1rem
+}
+.mpc-card-btn{
+  margin-top: 2rem;
+}
+.mpc-card-btn-text{
+  color: #fffdf7e8;
+  border: 1px solid #FFFDF7;
+  padding: 12px;
+  font-family: jakarta;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: 0.5rem;
+}
+/* ========================
+   As seen in / Press Mentions
+======================== */
+.press-mentions{
+  padding: 2.5rem 0;
+  background: #fffdf7;
+}
+.press-mentions-container{
+  max-width: 1200px;
+  margin-inline: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.press-mentions-text{
+  font-family: jakarta;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #9A7A2E;
+  margin: 0px 0px 12px;
+}
+.press-mentions-logos{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 1.25rem;
+}
+.press-mention-img-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.25rem;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid #cfc19a4d;
+  background: #FAF5E8;
+}
+.press-mention-logo{
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+.press-mention-text{
+  font-family: jakarta;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: #6B5744;
+  text-align: center;
+}
+.press-mentions-view-all{
+  margin-top: 1.5rem;
+}
+.press-mentions-view-all-text{
+  font-size: 15px;
+  color: #7B1F2E;
+  font-weight: 600;
+  text-underline-offset:3px;
+}
+
 
 /* ========================
    RESPONSIVE — MOBILE (≤425px)
