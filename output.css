@@ -961,6 +961,232 @@
   filter: invert(45%);
 }
 /* ========================
+   Featured Products 
+======================== */
+.featured-products{
+  padding: 64px 0px;
+}
+.multiple-platform-container{
+  max-width: 1200px;
+  margin-inline: auto;
+  width:100%
+}
+.featured-products-grid{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap:1.5rem;
+  padding-bottom: 1rem;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+.product-card{
+  background: #FAF5E8;
+  border: 1px solid #cfc19a66;
+  border-top: 3px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+.product-img-wrap{
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #FFFDF7;
+  border-radius: 0.75rem;
+}
+.featured-product-img{
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.featured-img-badge{
+  padding: 0.25rem 0.75rem;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 9999px;
+  letter-spacing: 0.02em;
+  font-family: jakarta;
+  background: linear-gradient(135deg, #C8A35F, #D4B06A);
+  color: #2C1810;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+.featured-prdct-name{
+  font-family: jakarta;
+  font-size: 21px;
+  margin: 0px 0px 4px;
+  color:#2C1810;
+}
+.product-cat{
+  font-family: jakarta;
+  font-size: 15px;
+  color:#6B5744;
+  margin-bottom: 0.5rem;
+}
+.product-rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:0.25rem;
+  margin-top:0.25rem;
+  margin-bottom: 0.45rem;
+}
+.rating-star{
+  line-height: 1;
+  color: #F5A623;
+  letter-spacing: -1px;
+  font-size: 14px;
+}
+.rating-score{
+  font-family: jakarta;
+  color: #2C1810;
+  font-weight: 600;
+}
+.rating-count{
+  font-family: jakarta;
+  color:#6B5744;
+  font-size: 13px;
+}
+.product-best-for{
+  font-family: jakarta;
+  font-size: 0.72rem;
+  color:#2D5A3D;
+  background: #D4E5DA;
+  padding:3px 10px;
+  border-radius: 9999px;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+.product-usp{
+  font-family: jakarta;
+  font-size: 0.72rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  line-height: 1.4;
+  color:#6B5744;
+}
+.product-size-pills{
+  display: flex;
+  gap:0.25rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.product-size-pill{
+  font-family: jakarta;
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: #F5EDD8;
+  color:#6B5744;
+  font-weight: 500;
+}
+.product-buy-platforms{
+  display: flex;
+  gap:0.5rem;
+  margin-top: 0.75rem;
+  justify-content: center;
+}
+.p-btn-platform{
+  display: inline-flex;
+  align-items: center;
+  gap:4px;
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  text-decoration: none;
+}
+.btn-blinkit{
+  background: #F8CB46;
+  color:#1A1A1A;
+}
+.cart-blinkit{
+  height: 14px;
+  width: 14px;
+}
+.btn-zepto{
+  background: #7B2D8E;
+  color: #fff;
+}
+.cart-zepto{
+  height: 14px;
+  width: 14px;
+  filter: invert(100%);
+}
+.btn-instamart{
+  background: #FC8019;
+  color:#fff;
+}
+.product-page-link{
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  color:#C8A35F;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #CFC19A;
+}
+.featured-products-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  margin-top:1.5rem;
+}
+.product-arrow{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid #CFC19A;
+  background: #FAF5E8;
+  color:#2C1810;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.product-dots{
+  display: none;
+}
+.product-prev-img{
+  height: 20px;
+  width: 20px;
+}
+.featured-products-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.fetured-prdct-btn{
+  text-decoration: none;
+  background: #7B1F2E;
+  color: #FFFDF7;
+  border: 1px solid #7B1F2E;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-family: jakarta;
+  font-size:15px;
+  font-weight: 500;
+  line-height: 1.2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/* ========================
    Order Now multiple platform 
 ======================== */
 .multiple-platform-order{
